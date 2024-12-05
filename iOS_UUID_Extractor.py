@@ -9,8 +9,10 @@ import os
 
 # Set up the appearance mode and theme
 ctk.set_appearance_mode("dark")  # Dark mode appearance
-ctk.set_default_color_theme("90s_retro_theme.json")  # Custom theme
-# ctk.set_default_color_theme("blue")  # Additional Theme color
+try:
+    ctk.set_default_color_theme("90s_retro_theme.json")  # Custom theme
+except:
+    ctk.set_default_color_theme("blue")  # Default Theme color
 
 # Function to extract metadata identifier from plist data
 def get_metadata_identifier(plist_data):
