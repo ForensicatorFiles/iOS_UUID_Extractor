@@ -59,7 +59,7 @@ The **iOS UUID Extractor** is a GUI-based Python application built with `customt
 ---
 
 ### Custom Theme
-The application uses a 90s_retro_theme_full.json custom theme for customtkinter. Replace this theme file or modify it for a personalized look.
+The application uses a 90s_retro_theme_full.json custom theme for customtkinter. If you don't want this, it will default to the 'blue' theme. Feel free to modify the json or use any of the other built in colors. 
 
 To switch to another theme:
 - Replace the theme file path in the code:
